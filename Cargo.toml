@@ -56,7 +56,6 @@ default-target = "x86_64-unknown-linux-gnu"
 [dependencies]
 cpp = "0.5.5"
 cty = "0.2.2"
-log = { version = "0.4.11", default-features = false }
 managed = { version = "0.8.0", default-features = false }
 ordered-float = { version = "~2.0.0", default-features = false }
 

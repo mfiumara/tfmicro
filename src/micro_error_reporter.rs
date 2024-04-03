@@ -8,7 +8,7 @@
 use crate::bindings::tflite;
 
 cpp! {{
-    #include "tensorflow/lite/micro/micro_error_reporter.h"
+    #include "tensorflow/lite/micro/tflite_bridge/micro_error_reporter.h"
 }}
 
 #[repr(transparent)]
